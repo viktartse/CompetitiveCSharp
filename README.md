@@ -1,5 +1,5 @@
 # CompetitiveCSharp
-If you participate in a programming contests and use C# then you are probably a bit tired of the C# input features. Basically you need to parse and convert all input data by yourself. This template contains `ConsoleReader` class that simplify the data input process. You can copy and paste the template into you solution.
+If you participate in programming contests and use C# then you are probably a bit tired of the C# input features. Basically you need to parse and convert all input data by yourself. This template contains `ConsoleReader` class that simplifies the data input process. You can copy and paste the template into you solution.
 
 ### Read Single Value
 To read data like this
@@ -14,7 +14,7 @@ var n = Read<int>();
 var s = Read<string>();
 ````
 
-Every call of the `Read` method skips whitespace symbols, gets all non whitespace symbols until the new whitespace, and convert the sequence of the read characters into the type specified. Therefore, `Read<string>()` won't read a string with a space. Only the part before space will be read.
+Every call of the `Read` method skips whitespace symbols, gets all non whitespace symbols until the new whitespace, and converts the sequence of the read characters into the type specified. Therefore, `Read<string>()` will not read a string with a space. Only the part before space will be read.
 
 ### Read Array
 If you need to read an array, you can use the `ReadArray` method.
